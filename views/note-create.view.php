@@ -25,16 +25,10 @@ This example requires updating your template:
 
     <main>
         <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-            <ul>
-                <?php foreach ($notes as $note) : ?>
-                    <li class="text-blue-500 hover:underline">
-                        <a href="/note?id=<?= $note['id'] ?>"><?= $note['body'] ?></a>
-                    </li>
-                <?php endforeach;?>
-            </ul>
-            <p class="text-blue-500 mt-6">
-                <a href="/note/create" class="hover:underline">Create new note</a>
-            </p>
+
+                <p>Create new note</p>
+
+
         </div>
     </main>
 </div>
